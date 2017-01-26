@@ -1,5 +1,13 @@
 ### Standard Testing Toolkit API
 
+`stationery` is a Python module for conducting offline A/B testing. In addition simple statistic tests may also be conducted however this package is not the recommended use case for the same. The goal for `stationery` is to offer a clean concise framework for beginners to dive into.
+
+#### API Docs
+1. Sample Size Determination(#sample_size)
+2. One and Two-tailed Tests (#tailed)
+
+-------
+<a name="sample_size"></a>
 `determine_sample_size(baserate, effect, alpha=0.05, beta=0.2, alternative='one-sided', relative=False)`
 Determine minimum sample size for significance
 + **Parameters**:
@@ -30,7 +38,7 @@ Mimimum sample size calculated as:
 ![equation](http://www.sciweavers.org/tex2img.php?eq=N%20%3D%20%20%5Cfrac%7B%28%20Z_%7B%5Calpha%7D%20%2B%20Z_%7B1-%5Cbeta%7D%29%5E%7B2%7D%7D%7Bd%5E%7B2%7D%7D%20%5Bp_%7B1%7D%281%20-%20p_%7B1%7D%29%20%2B%20p_%7B2%7D%281%20-%20p_%7B2%7D%29%5D%0A&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
 -------
-
+<a name="tailed"></a>
 `split_test_results(visitors, conversions, alpha=0.05, beta=0.2, alternative='one-sided', bayesian=False)`
 Function to perform desired split test and return a summary of results.
 + **Parameters**:
