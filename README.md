@@ -1,4 +1,4 @@
-# statnery
+# stationery
 _Lightweight Offline A/B Testing Framework_
 
 
