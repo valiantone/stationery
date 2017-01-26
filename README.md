@@ -1,7 +1,6 @@
 # statnery
-Statistical Testing Tools and Playbook
+_Statistical Testing Tools and Playbook_
 
---------
 
 Statistical significance testing is paramount in the field of experimentation as it establishes higher degree of confidence in our results being better than a random effect of chance. The following guide is an attempt to institutionalize a common shared framework for testing. At Bellhops our A/B Testing vendor of choice is Optimizely and hence a lot of the definitions and practices are tailored to conform with their knowledge base. The idea for this playbook was inspired by Julien Le Nestour's [blog](https://julienlenestour.com/maths-behind-minimum-sample-size-ab-testing/) post of a similar nature.
 
@@ -105,7 +104,7 @@ Mimimum sample size calculated as:
 -------
 
 `split_test_results(visitors, conversions, alpha=0.05, beta=0.2, alternative='one-sided', bayesian=False)`
-Determine minimum sample size for significance
+Function to perform desired split test and return a summary of results.
 + **Parameters**:
     + **alternative** : string  
 Describes test type, defaults to one-sided. Functionality for one-sided and two-sided tests.
