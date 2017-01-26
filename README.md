@@ -4,12 +4,12 @@ _Statistical Testing Tools and Playbook_
 
 Statistical significance testing is paramount in the field of experimentation as it establishes higher degree of confidence in our results being better than a random effect of chance. The following guide is an attempt to institutionalize a common shared framework for testing. At Bellhops our A/B Testing vendor of choice is Optimizely and hence a lot of the definitions and practices are tailored to conform with their knowledge base. The idea for this playbook was inspired by Julien Le Nestour's [blog](https://julienlenestour.com/maths-behind-minimum-sample-size-ab-testing/) post of a similar nature.
 
-TOC
-[Statistical Significance](#sig)  
-[Statistical Power](#pow)  
-[Testing](#test)  
-[A/B Testing Guidelines](#gdl)  
-[Statistical Testing Toolkit](#api)  
+#### Contents
+1. [Statistical Significance](#sig)  
+2. [Statistical Power](#pow)  
+3. [Testing](#test)  
+4. [A/B Testing Guidelines](#gdl)  
+5. [Statistical Testing Toolkit](#api)  
 
 <a name="sig"></a>
 ### Statistical Significance
