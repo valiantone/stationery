@@ -3,11 +3,12 @@
 `stationery` is a Python module for conducting offline A/B testing. In addition simple statistic tests may also be conducted however this package is not the recommended use case for the same. The goal for `stationery` is to offer a clean concise framework for beginners to dive into.
 
 #### API Docs
-1. Sample Size Determination(#sample_size)
-2. One and Two-tailed Tests (#tailed)
+1. [Sample Size Determination](#sample_size)
+2. [One and Two-tailed Tests](#tailed)
 
 -------
 <a name="sample_size"></a>
+#### Sample Size Determination
 `determine_sample_size(baserate, effect, alpha=0.05, beta=0.2, alternative='one-sided', relative=False)`
 Determine minimum sample size for significance
 + **Parameters**:
@@ -39,6 +40,7 @@ Mimimum sample size calculated as:
 
 -------
 <a name="tailed"></a>
+#### One and Two-tailed Tests
 `split_test_results(visitors, conversions, alpha=0.05, beta=0.2, alternative='one-sided', bayesian=False)`
 Function to perform desired split test and return a summary of results.
 + **Parameters**:
