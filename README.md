@@ -48,7 +48,7 @@ If you are using a significance level of .05, a one-tailed test allots all of yo
 <table border="0"><tr><td><img src='http://www.ats.ucla.edu/stat/mult_pkg/faq/pvalue2.gif'></td><td><img src='http://www.ats.ucla.edu/stat/mult_pkg/faq/pvalue3.gif'></td></tr></table>
 
 ### Determining Appropriate Test
-The one-tailed test provides more power to detect an effect in one direction by not testing the effect in the other direction.The one-tailed test provides more power to detect an effect in one direction by not testing the effect in the other direction.
+The one-tailed test provides more power to detect an effect in one direction by not testing the effect in the other direction. Because the one-tailed test provides more power to detect an effect, you may be tempted to use a one-tailed test whenever you have a hypothesis about the direction of an effect. Before doing so, consider the consequences of missing an effect in the other direction.
 
 So when is a one-tailed test appropriate? If you consider the consequences of missing an effect in the untested direction and conclude that they are negligible and in no way irresponsible or unethical, then you can proceed with a one-tailed test. Choosing a one-tailed test for the sole purpose of attaining significance is not appropriate.  Choosing a one-tailed test after running a two-tailed test that failed to reject the null hypothesis is not appropriate, no matter how "close" to significant the two-tailed test was.  Using statistical tests inappropriately can lead to invalid results that are not replicable and highly questionable--a steep price to pay for a significance star in your results table.
 
