@@ -94,11 +94,11 @@ Estimated current conversion rate.
     + **effect** : Floating point value in range [0, 1]  
 Minimum detectable effect over baseline that can be measured within confidence interval.
 
-    + **alpha** : Floating point value in range [0, 1]  
-Desired statistical significance (calculated as 1- ![equation](http://www.sciweavers.org/tex2img.php?eq=%5Calpha&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0))
+    + **alpha** : Floating point value in set [0.01, 0.05, 0.10]  
+Desired statistical significance (calculated as 1- `alpha`
     
-    + **beta** : Floating point value in range [0, 1]  
-Desired statistical significance (calculated as 1- ![equation](http://www.sciweavers.org/tex2img.php?eq=%5Cbeta&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0))
+    + **beta** : Floating point value in set [0.05, 0.20]  
+Desired statistical significance (calculated as 1- `beta`
 
     + **relative** : boolean  
 Absolute or Relative effect desired, defaults to `False` indicating absolute.
@@ -125,11 +125,11 @@ Visitors for control A and variant B - (A, B)
     + **conversions** : integer tuple  
 Conversions for control A and variant B - (A, B)
 
-    + **alpha** : Floating point value in range [0, 1]  
-Desired statistical significance (calculated as 1- ![equation](http://www.sciweavers.org/tex2img.php?eq=%5Calpha&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0))
+    + **alpha** : Floating point value in set [0.01, 0.05, 0.10]  
+Desired statistical significance (calculated as 1- `alpha`
     
-    + **beta** : Floating point value in range [0, 1]  
-Desired statistical significance (calculated as 1- ![equation](http://www.sciweavers.org/tex2img.php?eq=%5Cbeta&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0))
+    + **beta** : Floating point value in set [0.05, 0.20]  
+Desired statistical significance (calculated as 1- `beta`
 
     + **bayesian** : boolean  
 Bayesian or Frequentist framework. Defaults to `False`. Additional parameter `prior` required for Bayesian testing.
